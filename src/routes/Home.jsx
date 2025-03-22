@@ -2,7 +2,10 @@ import {} from 'react'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <h1>recinto</h1>
+    </>  
   )
 }
 
+export default Home
