@@ -3,7 +3,7 @@ import {} from 'react'
 const Home = () => {
   return (
     <>
-      <h1>recinto</h1>
+           
     </>  
   )
 }

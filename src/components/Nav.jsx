@@ -8,6 +8,7 @@ const Nav = () => {
         <section className="nav">
             <Link to="/" className="tlink">Home</Link>
             <Link to="/produto" className="tlink">Produto</Link>
+            <Link to="/sobre" className="tlink">Sobre</Link>
         </section>
     )
 }
