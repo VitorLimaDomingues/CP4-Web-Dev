@@ -1,6 +1,6 @@
 import React from 'react';
-import Produto from './components/produto';
-import './Produtos.css'; 
+import Produto from '../components/Produtos.jsx';
+import '../css/PaginaProdutos.css';
 
 const PaginaProdutos = () => {
     const produtos = [
@@ -28,3 +28,4 @@ const PaginaProdutos = () => {
 };
 
 export default PaginaProdutos;
+

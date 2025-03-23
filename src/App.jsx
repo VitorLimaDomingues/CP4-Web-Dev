@@ -2,11 +2,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Error from './routes/Error';
 
 import Home from './routes/Home';
-import Produto from './routes/Produtos';
+import Produto from './routes/PaginaProdutos';
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Sobre from './routes/Sobre'
-import Produtos from './Produtos';
+import PaginaProdutos from './routes/PaginaProdutos';
 
 function App() {
 
