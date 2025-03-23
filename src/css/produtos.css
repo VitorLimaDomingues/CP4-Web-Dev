@@ -1,0 +1,36 @@
+.pagina-produtos {
+    padding: 20px;
+    text-align: center;
+}
+
+.produtos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.produto h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.produto p {
+    font-size: 1em;
+    color: #888;
+}

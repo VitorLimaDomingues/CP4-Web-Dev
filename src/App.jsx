@@ -6,6 +6,7 @@ import Produto from './routes/Produtos';
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Sobre from './routes/Sobre'
+import Produtos from './Produtos';
 
 function App() {
 
