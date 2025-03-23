@@ -1,5 +1,5 @@
 import React from 'react';
-import Produto from '../components/Produtos.jsx';
+import Produto from '../components/produtos.jsx';
 import '../css/PaginaProdutos.css';
 
 const PaginaProdutos = () => {
