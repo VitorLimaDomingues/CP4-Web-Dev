@@ -1,12 +1,66 @@
-# React + Vite
+# Projeto React - Navegação com React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto React que implementa navegação entre diferentes páginas utilizando o `react-router-dom`. O projeto inclui uma barra de navegação, rodapé e diferentes rotas para acessar páginas específicas.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- React Router DOM
+- JavaScript (ES6+)
+- HTML & CSS (para estilização)
 
-## Expanding the ESLint configuration
+## Estrutura do Projeto
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+/src
+ |-- /components
+ |    |-- Nav.js (Barra de navegação)
+ |    |-- Footer.js (Rodapé)
+ |
+ |-- /routes
+ |    |-- Home.js (Página Inicial)
+ |    |-- Sobre.js (Página "Sobre")
+ |    |-- PaginaProdutos.js (Página de Produtos)
+ |    |-- Error.js (Página de Erro 404)
+ |
+ |-- App.js (Componente principal)
+ |-- index.js (Ponto de entrada do aplicativo)
+```
+
+## Instalação e Execução
+
+1. Clone o repositório:
+
+   ```sh
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   ```
+
+2. Navegue até o diretório do projeto:
+
+   ```sh
+   cd nome-do-repositorio
+   ```
+
+3. Instale as dependências:
+
+   ```sh
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```sh
+   npm start
+   ```
+
+## Como Funciona
+
+- `/` - Página inicial.
+- `/produto` - Exibe a página de produtos.
+- `/sobre` - Exibe a página "Sobre".
+- Qualquer outra rota levará à página de erro (`Error.js`).
+
+## Autores
+- Vitor de Lima Domingues(RM:561008)
+- João Pedro Vieira de Morais(RM:560527)
+- Giovanni Romano Provazi(RM:560434)
