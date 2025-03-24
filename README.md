@@ -60,6 +60,9 @@ Este é um projeto React que implementa navegação entre diferentes páginas ut
 - `/sobre` - Exibe a página "Sobre".
 - Qualquer outra rota levará à página de erro (`Error.js`).
 
+## Deploy na vercel
+- https://cp-4-web-dev-delta.vercel.app/
+
 ## Autores
 - Vitor de Lima Domingues(RM:561008)
 - João Pedro Vieira de Morais(RM:560527)
