@@ -50,7 +50,7 @@ Este é um projeto React que implementa navegação entre diferentes páginas ut
 4. Inicie o servidor de desenvolvimento:
 
    ```sh
-   npm start
+   npm run dev
    ```
 
 ## Como Funciona
